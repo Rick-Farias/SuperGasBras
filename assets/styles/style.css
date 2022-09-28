@@ -171,7 +171,7 @@ nav .nav-list{
 #sec-2 .list-produtos  .card{
     width: 300px;
     height: 400px;
-    background-image: radial-gradient(circle, #f65121, #f9622e, #fb713b, #fd8049, #ff8d57);
+    background-image: linear-gradient(to bottom, #f6732f, #f78332, #f99238, #f9a140, #faaf49);
     box-shadow: 5px 5px 15px -10px #f65121;
     border-radius: 10px;
     margin: 10px;
@@ -352,10 +352,20 @@ footer span{
     }
     #nav-list-2{
         padding-top: 50px;   
+    }#sec-1 .gas-fundo{
+        padding: 10px;
     }
-      #sec-1 .gas-fundo span{
-      font-size: 1.4rem;
-      }
+    #sec-1 .gas-fundo span{
+        font-size: 1.4rem;
+    }
+
+    .mapa .map{
+        width: 350px;
+        margin: 10px;
+    }
+    .text-mapa{
+        margin: 15px;
+    }
   }
 
 @media (max-width: 1030px) {
