@@ -353,6 +353,9 @@ footer span{
     #nav-list-2{
         padding-top: 50px;   
     }
+      #sec-1 .gas-fundo span{
+      font-size: 1.4rem;
+      }
   }
 
 @media (max-width: 1030px) {
