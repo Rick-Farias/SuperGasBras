@@ -173,7 +173,7 @@ nav .nav-list{
 }
 
 
-#sec-2 .list-produtos  .card{
+#sec-2 .list-produtos .card{
     width: 300px;
     height: 400px;
     background-image: linear-gradient(to bottom, #f6732f, #f78332, #f99238, #f9a140, #faaf49);
@@ -219,10 +219,11 @@ nav .nav-list{
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
 }
-#sec-2 .list-produtos .card .card-texto .nome{
+#sec-2 .list-produtos a{
     font-size: 1.3rem;
     font-weight: bold;
     margin: 10px;
+    color: #363636;
 }
 
 
