@@ -220,14 +220,11 @@ nav .nav-list{
     border-bottom-left-radius: 10px;
 }
 #sec-2 .list-produtos .card .card-texto .nome{
-    font-size: 1.1rem;
-    margin: 10px;
-}
-#sec-2 .list-produtos .card .card-texto .valor{
-    color: #f38952;
     font-size: 1.3rem;
     font-weight: bold;
+    margin: 10px;
 }
+
 
 
 #sec-3{
@@ -241,7 +238,7 @@ nav .nav-list{
 #sec-3 .mapa{
     width: 600px;
     text-align: center;
-    
+
 }
 
 #sec-3 .mapa .map{
