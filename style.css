@@ -1,0 +1,441 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-size: 1.2rem;
+    font-family:'Roboto',Helvetica,Arial,sans-serif;
+    color: #363636;
+    overflow-x: hidden;
+}
+.container{
+    width: 1110px;
+    margin: auto;
+    text-align: center;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    font-size: 1.3rem;
+    position: fixed;
+    z-index: 1;
+    background-color: #fff;
+    flex-wrap: wrap;
+}
+nav .nav-logo a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    color: #363636;
+}
+nav .nav-logo img{
+    width: 50px;
+}
+
+nav .nav-logo h2{
+    font-size: 2.0rem;
+}
+nav .nav-list ul{
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    
+}
+nav .nav-list ul .local{
+    display: flex;
+    justify-content: space-between;
+    width: 110px;
+}
+nav .nav-list ul .pedido{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    text-align: center;
+    color: #fff;
+    background-color: #d33100;
+    transition: all 1s;
+}
+nav .nav-list ul a{
+    color: #363636;
+}
+nav .nav-list ul .pedido a{
+    color: #fff;
+}
+nav .nav-list ul .pedido:hover{
+    background-color: #A02500;
+    color: #FFF;
+}
+
+nav .nav-list ul li a{
+    transition: color 0.5s;
+    cursor: pointer;
+}
+nav .nav-list ul li a:hover{
+    color: #d33100;
+}
+nav .nav-list{
+   position: absolute;
+   right: 20px;
+}
+
+
+#sec-1{
+    width: 100%;
+    height: 450px;
+    /* background-image: linear-gradient(to right top, #f65121, #f9622e, #fb713b, #fd8049, #ff8d57); */
+    background-image: linear-gradient(to bottom, #f6732f, #f78332, #f99238, #f9a140, #faaf49);
+    position: relative;
+    box-shadow: 10px 10px 25px -10px #FBAD48;
+    padding-top: 150px;
+    
+}
+.onda{
+    margin-top: -2px;
+}
+.onda2{
+    margin-bottom: -5px;
+}
+#sec-1 .gas-fundo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+#sec-1 .gas-fundo .texto-1{
+    width: 350px;
+    
+}
+#sec-1 .gas-fundo .texto-1 img{
+    width: 100%;
+}
+
+#sec-1 .gas-fundo .texto-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#sec-1 .gas-fundo span{
+    color: white;
+    font-size: 2.0rem;
+    text-align: center;
+}
+
+#sec-1 .gas-fundo button{
+    margin-top: 10px;
+    width: 120px;
+    height: 35px;
+    background-color: #fff;
+    color: #f38952;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+#sec-1 .gas-fundo button a{
+    color: #f38952;
+}
+#sec-1 .gas-fundo button:hover{
+    background-color: #e4e0e0;
+}
+
+
+#sec-2{
+    background-color: #F4F4F4;
+    padding-bottom: 50px;
+}
+
+#sec-2 h2{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 3.0rem;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+
+#sec-2 .list-produtos  .card{
+    width: 300px;
+    height: 400px;
+    background-image: linear-gradient(to bottom, #f6732f, #f78332, #f99238, #f9a140, #faaf49);
+    box-shadow: 5px 5px 15px -10px #f65121;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    transition: transform 1s;
+    cursor: pointer;
+}
+#sec-2 .list-produtos .card:hover{
+    transform: scale(1.05);
+}
+#sec-2 .list-produtos .card .card-img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sec-2 .list-produtos .card .card-img img{
+    width: 280px;
+}
+
+#sec-2 .list-produtos ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#sec-2 .list-produtos .card .card-texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#sec-2 .list-produtos .card .card-texto .nome{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 10px;
+}
+
+
+
+#sec-3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 30px 0px;
+}
+#sec-3 .mapa{
+    width: 600px;
+    text-align: center;
+
+}
+
+#sec-3 .mapa .map{
+    max-width: 100%;
+    height: 500px;
+}
+
+#sec-3 .text-mapa{
+    width:400px;
+    height: 500px;
+    padding: 20px;
+    border: 2px solid #ff3c00;
+    border-radius: 10px;   
+}
+
+#sec-3 .text-mapa h3{
+    color: #ff3c00;
+    margin: 20px 0px;
+}
+
+footer{
+    height: 250px;
+    width: 100%;
+    background-color: #363636;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+footer span{
+    position: absolute;
+    bottom: 10px;
+    font-size: 1.0rem;
+}
+#btn-menu{
+    border: none;
+    width: 50px;
+    background-color: transparent;
+    display: none;
+    cursor: pointer;
+}
+
+#btn-menu svg{
+    fill: #d33100;
+    width: 30px;
+    height: 30px;
+}
+
+#nav-list-2{
+    position: fixed;
+    margin-top: 80px;
+    width: 50%;
+    height: 100vh;
+    background-color: #FFF;
+    top: 0;
+    right: 0;
+    font-size: 1.5rem;
+    text-align: center;
+    transform: translateX(600px);
+    transition: transform 1s;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    z-index: 50;
+}
+#nav-list-2 ul{
+    width: 100%;
+}
+#nav-list-2 ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    padding: 30px;
+    width: 100%;
+}
+#nav-list-2 ul li:hover{
+    background-color: #dbdada;
+}
+#nav-list-2 a{
+    color: #D33100;
+}
+
+#sec-1 .menu-on-off {
+    position: fixed;
+    transform: translateX(0px);
+    transition: transform 1s;
+  }
+  .pedir a{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    text-align: center;
+    color: #fff;
+    background-color: #d33100;
+    transition: all 1s;
+  }
+  nav .reponse-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .btn-compre{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: #363636;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: auto;
+    transition: background-color 0.8s;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+  .btn-compre:hover{
+    background-color: #F9973B;
+  }
+
+  .icones{
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    z-index: 100;
+    margin-bottom: 10px;
+    
+  }
+  .icones .wpp img, .instagram img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+
+
+
+  @media (max-width: 570px){
+    nav .nav-logo{
+        margin: auto;
+    }
+    nav .reponse-menu{
+        margin: auto;
+    }
+    nav{
+        height: 120px;
+    }
+    #nav-list-2{
+        padding-top: 50px;   
+    }#sec-1 .gas-fundo{
+        padding: 10px;
+    }
+    #sec-1 .gas-fundo span{
+        font-size: 1.4rem;
+    }
+
+    .mapa .map{
+        width: 350px;
+        margin: 10px;
+
+    }
+    .text-mapa{
+        margin: 15px;
+    }
+    
+    #nav-list-2{
+        padding-top: 0;
+        margin-top: 120px;
+    }
+  }
+
+@media (max-width: 1030px) {
+    .nav-list{
+        display: none;
+    }
+    #btn-menu{
+        display: block;
+    }
+    #nav-list-2{
+        display: flex;
+    }
+}
+@media (min-width: 1030px) {
+    #btn-menu{
+        display: none;
+    }
+    .pedir{
+        display: none;
+    }
+    #nav-list-2{
+        display: none;
+    }
+}
