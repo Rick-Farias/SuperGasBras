@@ -282,6 +282,7 @@ nav .reponse-menu {
   .slider {
     height: 250px;
   }
+  
 }
 
 @media (min-width: 700px) {
@@ -301,7 +302,7 @@ nav .reponse-menu {
 #home {
   margin-top: 40px;
   width: 100%;
-  height: 90vh;
+  height: 80vh;
   position: relative;
   background-image: linear-gradient(
     to left,
@@ -332,7 +333,7 @@ nav .reponse-menu {
   bottom: 0;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   font-size: 1.1rem;
 }
 .btn-wpp {
@@ -363,12 +364,25 @@ nav .reponse-menu {
   align-items: center;
   height: 400px;
   width: 300px;
+  margin-top: 55px;
 }
 .texto-2 img {
   width: 100%;
   margin-bottom: 70px;
 }
+.texto-3{
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  margin-top: 0px;
+}
+.texto-3 span a{
+  font-size: 4rem;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
 
+}
 /* Seção 2 Produtos */
 
 #sec-2 {
@@ -584,16 +598,16 @@ footer .div-logo a::before {
     margin-top: 100px;
     
   }
-
+  .texto-3{
+    display: block;
+  }
 }
-@media (max-width: 630px) {
+@media(max-width: 630px) {
   #home {
     align-items: flex-start;
     height: 700px;
   }
-  #home{
-    align-items: center;
-  }
+  
 }
 
 @media (max-width: 1030px) {
